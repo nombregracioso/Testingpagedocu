@@ -1,0 +1,62 @@
+site_name: B3FX Studios
+site_url: https://b3fxstudios.com/
+extra_css:
+  - stylesheets/extra.css
+
+theme:
+  name: material
+  copyright: ""
+  language: es
+  features:
+    - navigation.tabs       # si quieres pestañas arriba
+    - navigation.sections
+    - navigation.footer        # Previous/next links
+    - content.code.copy
+    - content.action.edit
+    - content.cards   # 👈 habilita las cards
+    - navigation.prev_next
+  palette:
+    scheme: slate
+    accent: custom
+    primary: custom
+    surface: custom
+nav:
+  - MatPlus:
+    - Índice: MatPlus/index.md
+    - Primeros pasos: 
+      - Instalación: MatPlus/getting-started/install.md
+      - Inicio rápido: MatPlus/getting-started/quickstart.md
+    - Secciones:
+      - Seccion capas:
+        - Interfaz: MatPlus/sections/layers/basic-interface.md
+        - Elementos de la interfaz:
+          - Botones básicos: MatPlus/sections/layers/botones.md
+          - Capas: MatPlus/sections/layers/capas.md
+          - Máscaras: MatPlus/sections/layers/mask.md
+          - Efectos de capa: MatPlus/sections/layers/maskeffect.md
+      - Seccion bake:
+        - Interfaz: MatPlus/sections/bake/basic-interface.md
+      - Seccion ajustes:
+        - Interfaz: MatPlus/sections/settings/basic-interface.md
+      - Seccion exportar:
+        - Interfaz: MatPlus/sections/export/basic-interface.md
+  - RDBlab:
+    - Instalacion: RDBlab/getting-started/install.md
+  - Fluidlab:
+    - Instalacion: RDBlab/getting-started/install.md
+  - Fracturelab:
+    - Instalacion: RDBlab/getting-started/install.md
+  - VDBlab:
+    - Instalacion: RDBlab/getting-started/install.md
+
+markdown_extensions:
+  - admonition
+  - attr_list        # 👈 necesario para { .clases } en markdown
+  - md_in_html       # 👈 necesario para usar <div markdown>
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+site_dir: carpeta_para_entregar
