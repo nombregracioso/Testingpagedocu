@@ -204,58 +204,6 @@
         <xhtml:link rel="alternate" hreflang="es" href="https://b3fxstudios.com/MatPlus/sections/bake/basic-interface/"/>
     </url>
     <url>
-        <loc>https://b3fxstudios.com/en/MatPlus/sections/export/basic-interface/</loc>
-        <lastmod>2025-08-27</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://b3fxstudios.com/en/MatPlus/sections/export/basic-interface/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://b3fxstudios.com/MatPlus/sections/export/basic-interface/"/>
-    </url>
-    <url>
-        <loc>https://b3fxstudios.com/en/MatPlus/sections/layers/basic-interface/</loc>
-        <lastmod>2025-08-27</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://b3fxstudios.com/en/MatPlus/sections/layers/basic-interface/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://b3fxstudios.com/MatPlus/sections/layers/basic-interface/"/>
-    </url>
-    <url>
-        <loc>https://b3fxstudios.com/en/MatPlus/sections/layers/botones/</loc>
-        <lastmod>2025-08-27</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://b3fxstudios.com/en/MatPlus/sections/layers/botones/"/>
-    </url>
-    <url>
-        <loc>https://b3fxstudios.com/en/MatPlus/sections/layers/capas/</loc>
-        <lastmod>2025-08-27</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://b3fxstudios.com/en/MatPlus/sections/layers/capas/"/>
-    </url>
-    <url>
-        <loc>https://b3fxstudios.com/en/MatPlus/sections/layers/mask/</loc>
-        <lastmod>2025-08-27</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://b3fxstudios.com/en/MatPlus/sections/layers/mask/"/>
-    </url>
-    <url>
-        <loc>https://b3fxstudios.com/en/MatPlus/sections/layers/maskeffect/</loc>
-        <lastmod>2025-08-27</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://b3fxstudios.com/en/MatPlus/sections/layers/maskeffect/"/>
-    </url>
-    <url>
-        <loc>https://b3fxstudios.com/en/MatPlus/sections/settings/basic-interface/</loc>
-        <lastmod>2025-08-27</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://b3fxstudios.com/en/MatPlus/sections/settings/basic-interface/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://b3fxstudios.com/MatPlus/sections/settings/basic-interface/"/>
-    </url>
-    <url>
-        <loc>https://b3fxstudios.com/en/RDBlab/getting-started/install/</loc>
-        <lastmod>2025-08-27</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://b3fxstudios.com/en/RDBlab/getting-started/install/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://b3fxstudios.com/RDBlab/getting-started/install/"/>
-    </url>
-    <url>
         <loc>https://b3fxstudios.com/en/MatPlus/sections/bake/config/highpoly-lowpoly/</loc>
         <lastmod>2025-08-27</lastmod>
         <changefreq>daily</changefreq>
@@ -275,6 +223,20 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://b3fxstudios.com/en/MatPlus/sections/bake/config/resolution/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://b3fxstudios.com/MatPlus/sections/bake/config/resolution/"/>
+    </url>
+    <url>
+        <loc>https://b3fxstudios.com/en/MatPlus/sections/export/basic-interface/</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://b3fxstudios.com/en/MatPlus/sections/export/basic-interface/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://b3fxstudios.com/MatPlus/sections/export/basic-interface/"/>
+    </url>
+    <url>
+        <loc>https://b3fxstudios.com/en/MatPlus/sections/layers/basic-interface/</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://b3fxstudios.com/en/MatPlus/sections/layers/basic-interface/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://b3fxstudios.com/MatPlus/sections/layers/basic-interface/"/>
     </url>
     <url>
         <loc>https://b3fxstudios.com/en/MatPlus/sections/layers/interface/botones/</loc>
@@ -345,5 +307,19 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://b3fxstudios.com/en/MatPlus/sections/layers/tools/paint-effect/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://b3fxstudios.com/MatPlus/sections/layers/tools/paint-effect/"/>
+    </url>
+    <url>
+        <loc>https://b3fxstudios.com/en/MatPlus/sections/settings/basic-interface/</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://b3fxstudios.com/en/MatPlus/sections/settings/basic-interface/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://b3fxstudios.com/MatPlus/sections/settings/basic-interface/"/>
+    </url>
+    <url>
+        <loc>https://b3fxstudios.com/en/RDBlab/getting-started/install/</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://b3fxstudios.com/en/RDBlab/getting-started/install/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://b3fxstudios.com/RDBlab/getting-started/install/"/>
     </url>
 </urlset>
