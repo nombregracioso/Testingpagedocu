@@ -6,7 +6,7 @@ extra_css:
 theme:
   name: material
   copyright: ""
-  language: es
+  language: 
   features:
     - navigation.tabs       # si quieres pestañas arriba
     - navigation.sections
