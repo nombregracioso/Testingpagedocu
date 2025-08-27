@@ -20,6 +20,20 @@ theme:
     accent: custom
     primary: custom
     surface: custom
+
+plugins:
+  - i18n:
+      docs_structure: folder
+      languages:
+        - locale: es
+          default: true
+          name: Español
+          build: true
+        - locale: en
+          name: English
+          build: true
+
+
 nav:
   - MatPlus:
     - Índice: MatPlus/index.md
