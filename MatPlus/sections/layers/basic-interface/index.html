@@ -644,6 +644,57 @@
   
 </li>
         
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Settings
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Settings">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ao-ambient-occlusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      AO (Ambient Occlusion)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bump" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bump
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#canales-adicionales" class="md-nav__link">
+    <span class="md-ellipsis">
+      Canales adicionales
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#secciones" class="md-nav__link">
+    <span class="md-ellipsis">
+      Secciones
+    </span>
+  </a>
+  
+</li>
+        
           <li class="md-nav__item">
   <a href="#layers-settings" class="md-nav__link">
     <span class="md-ellipsis">
@@ -1756,6 +1807,57 @@
   
 </li>
         
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Settings
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Settings">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ao-ambient-occlusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      AO (Ambient Occlusion)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bump" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bump
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#canales-adicionales" class="md-nav__link">
+    <span class="md-ellipsis">
+      Canales adicionales
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#secciones" class="md-nav__link">
+    <span class="md-ellipsis">
+      Secciones
+    </span>
+  </a>
+  
+</li>
+        
           <li class="md-nav__item">
   <a href="#layers-settings" class="md-nav__link">
     <span class="md-ellipsis">
@@ -1790,14 +1892,84 @@
 <h2 id="layers-section">Layers section</h2>
 <p>Cuando creamos o abrimos un proyecto esta es la interfaz con la que nos vamos a encontrar.</p>
 <p>Está separada en tres apartados.</p>
-<p><img alt="Interfaz" src="../../../../images/interfaz/interface-1.png" /></p>
+<p><img alt="Interfaz" src="../../../../images/interfaz/interface-1.jpg" /></p>
 <h3 id="matplus-materials">MatPlus Materials</h3>
-<p>En este apartado te vas a encontrar con la lista de materiales que contienen las mallas. </p>
-<p>Con los botones + y - puedes añadir o eliminar materiales de las mallas seleccionadas.</p>
-<p><img alt="Materiales" src="../../../../images/interfaz/matplusmaterial.png" /></p>
+<p>En este apartado te vas a encontrar con la lista de materiales que contienen las mallas.
+Solo se pueden añadir los materiales ya existentes en la malla. No se pueden crear materiales extra </p>
+<p>Con el botón <strong>Add object</strong> puedes añadir los materiales de las mallas seleccionadas.</p>
+<p>Con el botón <strong>Remove</strong> puedes eliminar los materiales de las mallas seleccionadas.</p>
+<p><img alt="Materiales" src="../../../../images/interfaz/matplusmaterial.jpg" /></p>
+<p>En la parte superior de la interfaz, se encuentran dos botones adicionales:</p>
+<p><strong>Botón izquierdo</strong>: Permite abrir el proyecto de MatPlus.</p>
+<p><strong>Botón derecho</strong>: Permite eliminar el proyecto seleccionado.</p>
 <h3 id="layers">Layers</h3>
 <p>En este apartado podemos encontrar todas las herramientas que nos van a permitir crear el material.</p>
-<p><img alt="layers" src="../../../../images/interfaz/layers.png" /></p>
+<p><img alt="layers" src="../../../../images/interfaz/layers.jpg" /></p>
+<h2 id="settings">Settings</h2>
+<p>En este panel de <strong>Matplus</strong> podremos configurar distintos parámetros avanzados para cada material de forma individual.  </p>
+<p><img alt="settings" src="../../../../images/interfaz/settings.jpg" /></p>
+<h3 id="ao-ambient-occlusion">AO (Ambient Occlusion)</h3>
+<p>Permite ajustar el nivel de oclusión ambiental aplicado al material mediante el control <strong>Factor</strong>, el cual define la intensidad del efecto.</p>
+<h3 id="bump">Bump</h3>
+<p>Este apartado gestiona la simulación de relieve en la superficie:  </p>
+<ul>
+<li><strong>Height Strength</strong>: controla la fuerza de la altura aplicada.  </li>
+<li><strong>Height Distance</strong>: define la distancia máxima de desplazamiento en el relieve.  </li>
+<li><strong>Normal Strength</strong>: ajusta la intensidad de las normales generadas.  </li>
+</ul>
+<h3 id="canales-adicionales">Canales adicionales</h3>
+<p>Desde la sección <strong>Channels Settings</strong> podremos añadir o eliminar canales extra según las necesidades del material.  </p>
+<table>
+<thead>
+<tr>
+<th><strong>Activos por defecto</strong></th>
+<th><strong>Opcionales</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Color</td>
+<td>Transmission</td>
+</tr>
+<tr>
+<td>Metallic</td>
+<td>Emission</td>
+</tr>
+<tr>
+<td>Roughness</td>
+<td>Specular IOR</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Specular Tint</td>
+</tr>
+<tr>
+<td>Height</td>
+<td>Coat Weight</td>
+</tr>
+<tr>
+<td></td>
+<td>Coat Roughness</td>
+</tr>
+<tr>
+<td></td>
+<td>Alpha</td>
+</tr>
+<tr>
+<td></td>
+<td>SS Weight</td>
+</tr>
+<tr>
+<td></td>
+<td>SS Scale</td>
+</tr>
+<tr>
+<td></td>
+<td>Displacement</td>
+</tr>
+</tbody>
+</table>
+<h3 id="secciones">Secciones</h3>
 <p>A la izquierda podemos encontrar los botones de las demás secciones.</p>
 <p><img alt="seccion" src="../../../../images/interfaz/sections.png" /></p>
 <h3 id="layers-settings">Layers settings</h3>
