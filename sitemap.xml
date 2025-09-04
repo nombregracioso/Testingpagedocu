@@ -190,12 +190,6 @@
         <xhtml:link rel="alternate" hreflang="es" href="https://nombregracioso.github.io/Testingpagedocu/MatPlus/"/>
     </url>
     <url>
-        <loc>https://nombregracioso.github.io/Testingpagedocu/en/MatPlus/getting-started/basic-interface/</loc>
-        <lastmod>2025-09-04</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://nombregracioso.github.io/Testingpagedocu/en/MatPlus/getting-started/basic-interface/"/>
-    </url>
-    <url>
         <loc>https://nombregracioso.github.io/Testingpagedocu/en/MatPlus/getting-started/install/</loc>
         <lastmod>2025-09-04</lastmod>
         <changefreq>daily</changefreq>
@@ -243,6 +237,20 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://nombregracioso.github.io/Testingpagedocu/en/MatPlus/sections/export/basic-interface/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://nombregracioso.github.io/Testingpagedocu/MatPlus/sections/export/basic-interface/"/>
+    </url>
+    <url>
+        <loc>https://nombregracioso.github.io/Testingpagedocu/en/MatPlus/sections/export/global-settings/</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nombregracioso.github.io/Testingpagedocu/en/MatPlus/sections/export/global-settings/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://nombregracioso.github.io/Testingpagedocu/MatPlus/sections/export/global-settings/"/>
+    </url>
+    <url>
+        <loc>https://nombregracioso.github.io/Testingpagedocu/en/MatPlus/sections/export/local-settings/</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nombregracioso.github.io/Testingpagedocu/en/MatPlus/sections/export/local-settings/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://nombregracioso.github.io/Testingpagedocu/MatPlus/sections/export/local-settings/"/>
     </url>
     <url>
         <loc>https://nombregracioso.github.io/Testingpagedocu/en/MatPlus/sections/layers/basic-interface/</loc>
@@ -308,6 +316,13 @@
         <xhtml:link rel="alternate" hreflang="es" href="https://nombregracioso.github.io/Testingpagedocu/MatPlus/sections/layers/tools/mask-filter/"/>
     </url>
     <url>
+        <loc>https://nombregracioso.github.io/Testingpagedocu/en/MatPlus/sections/layers/tools/mask-generator%20copy/</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nombregracioso.github.io/Testingpagedocu/en/MatPlus/sections/layers/tools/mask-generator%20copy/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://nombregracioso.github.io/Testingpagedocu/MatPlus/sections/layers/tools/mask-generator%20copy/"/>
+    </url>
+    <url>
         <loc>https://nombregracioso.github.io/Testingpagedocu/en/MatPlus/sections/layers/tools/mask-generator/</loc>
         <lastmod>2025-09-04</lastmod>
         <changefreq>daily</changefreq>
@@ -334,26 +349,5 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://nombregracioso.github.io/Testingpagedocu/en/RDBlab/getting-started/install/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://nombregracioso.github.io/Testingpagedocu/RDBlab/getting-started/install/"/>
-    </url>
-    <url>
-        <loc>https://nombregracioso.github.io/Testingpagedocu/en/MatPlus/sections/export/global-settings/</loc>
-        <lastmod>2025-09-04</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://nombregracioso.github.io/Testingpagedocu/en/MatPlus/sections/export/global-settings/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://nombregracioso.github.io/Testingpagedocu/MatPlus/sections/export/global-settings/"/>
-    </url>
-    <url>
-        <loc>https://nombregracioso.github.io/Testingpagedocu/en/MatPlus/sections/export/local-settings/</loc>
-        <lastmod>2025-09-04</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://nombregracioso.github.io/Testingpagedocu/en/MatPlus/sections/export/local-settings/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://nombregracioso.github.io/Testingpagedocu/MatPlus/sections/export/local-settings/"/>
-    </url>
-    <url>
-        <loc>https://nombregracioso.github.io/Testingpagedocu/en/MatPlus/sections/layers/tools/mask-generator%20copy/</loc>
-        <lastmod>2025-09-04</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://nombregracioso.github.io/Testingpagedocu/en/MatPlus/sections/layers/tools/mask-generator%20copy/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://nombregracioso.github.io/Testingpagedocu/MatPlus/sections/layers/tools/mask-generator%20copy/"/>
     </url>
 </urlset>
