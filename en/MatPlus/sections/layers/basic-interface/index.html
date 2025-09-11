@@ -627,9 +627,9 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#matplus-materials" class="md-nav__link">
+  <a href="#matplus-set-materials" class="md-nav__link">
     <span class="md-ellipsis">
-      MatPlus Materials
+      MatPlus Set Materials
     </span>
   </a>
   
@@ -658,33 +658,6 @@
   
     <nav class="md-nav" aria-label="Settings">
       <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#ao-ambient-occlusion" class="md-nav__link">
-    <span class="md-ellipsis">
-      AO (Ambient Occlusion)
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#bump" class="md-nav__link">
-    <span class="md-ellipsis">
-      Bump
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#canales-adicionales" class="md-nav__link">
-    <span class="md-ellipsis">
-      Canales adicionales
-    </span>
-  </a>
-  
-</li>
         
           <li class="md-nav__item">
   <a href="#secciones" class="md-nav__link">
@@ -1790,9 +1763,9 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#matplus-materials" class="md-nav__link">
+  <a href="#matplus-set-materials" class="md-nav__link">
     <span class="md-ellipsis">
-      MatPlus Materials
+      MatPlus Set Materials
     </span>
   </a>
   
@@ -1821,33 +1794,6 @@
   
     <nav class="md-nav" aria-label="Settings">
       <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#ao-ambient-occlusion" class="md-nav__link">
-    <span class="md-ellipsis">
-      AO (Ambient Occlusion)
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#bump" class="md-nav__link">
-    <span class="md-ellipsis">
-      Bump
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#canales-adicionales" class="md-nav__link">
-    <span class="md-ellipsis">
-      Canales adicionales
-    </span>
-  </a>
-  
-</li>
         
           <li class="md-nav__item">
   <a href="#secciones" class="md-nav__link">
@@ -1893,7 +1839,7 @@
 <p>Cuando creamos o abrimos un proyecto esta es la interfaz con la que nos vamos a encontrar.</p>
 <p>Está separada en tres apartados.</p>
 <p><img alt="Interfaz" src="../../../../../images/interfaz/interface-1.jpg" /></p>
-<h3 id="matplus-materials">MatPlus Materials</h3>
+<h3 id="matplus-set-materials">MatPlus Set Materials</h3>
 <p>En este apartado te vas a encontrar con la lista de materiales que contienen las mallas.
 Solo se pueden añadir los materiales ya existentes en la malla. No se pueden crear materiales extra </p>
 <p>Con el botón <strong>Add object</strong> puedes añadir los materiales de las mallas seleccionadas.</p>
@@ -1908,67 +1854,10 @@ Solo se pueden añadir los materiales ya existentes en la malla. No se pueden cr
 <h2 id="settings">Settings</h2>
 <p>En este panel de <strong>Matplus</strong> podremos configurar distintos parámetros avanzados para cada material de forma individual.  </p>
 <p><img alt="settings" src="../../../../../images/interfaz/settings.jpg" /></p>
-<h3 id="ao-ambient-occlusion">AO (Ambient Occlusion)</h3>
-<p>Permite ajustar el nivel de oclusión ambiental aplicado al material mediante el control <strong>Factor</strong>, el cual define la intensidad del efecto.</p>
-<h3 id="bump">Bump</h3>
-<p>Este apartado gestiona la simulación de relieve en la superficie:  </p>
-<ul>
-<li><strong>Height Strength</strong>: controla la fuerza de la altura aplicada.  </li>
-<li><strong>Height Distance</strong>: define la distancia máxima de desplazamiento en el relieve.  </li>
-<li><strong>Normal Strength</strong>: ajusta la intensidad de las normales generadas.  </li>
-</ul>
-<h3 id="canales-adicionales">Canales adicionales</h3>
-<p>Desde la sección <strong>Channels Settings</strong> podremos añadir o eliminar canales extra según las necesidades del material.  </p>
-<table>
-<thead>
-<tr>
-<th><strong>Activos por defecto</strong></th>
-<th><strong>Opcionales</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Color</td>
-<td>Transmission</td>
-</tr>
-<tr>
-<td>Metallic</td>
-<td>Emission</td>
-</tr>
-<tr>
-<td>Roughness</td>
-<td>Specular IOR</td>
-</tr>
-<tr>
-<td>Normal</td>
-<td>Specular Tint</td>
-</tr>
-<tr>
-<td>Height</td>
-<td>Coat Weight</td>
-</tr>
-<tr>
-<td></td>
-<td>Coat Roughness</td>
-</tr>
-<tr>
-<td></td>
-<td>Alpha</td>
-</tr>
-<tr>
-<td></td>
-<td>SS Weight</td>
-</tr>
-<tr>
-<td></td>
-<td>SS Scale</td>
-</tr>
-<tr>
-<td></td>
-<td>Displacement</td>
-</tr>
-</tbody>
-</table>
+<p>En este apartado podemos encontrar los canales que vienen configurados para usarse en todas las capas de MatPlus. Por defecto vienen activados Color, Metallic, Roughness, Normal y Height.</p>
+<p>Para añadir más canales podemos hacerlo con el botón Add Channel y ahi encontraremos canales opcionales como Transmission, Emission, Specular IOR, Specular Tint, Coat Weight, Coat Roughness, Alpha, SS Weight, SS Scale y Displacement.</p>
+<p>Algunos de estos canales al activarlos, se nos abren una serie de parametros que podemos configurar segun las necesidades del proyecto.</p>
+<p>En caso de no necesitar ciertos canales, los podemos eliminar pulsando en la X.</p>
 <h3 id="secciones">Secciones</h3>
 <p>A la izquierda podemos encontrar los botones de las demás secciones.</p>
 <p><img alt="seccion" src="../../../../../images/interfaz/sections.png" /></p>
