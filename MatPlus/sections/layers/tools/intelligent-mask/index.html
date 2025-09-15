@@ -1832,7 +1832,7 @@
 
 <h1 id="mascaras-inteligentes">Máscaras inteligentes</h1>
 <h2 id="ao">AO</h2>
-<p>El Ambien Occlusion es un generador procedural que utiliza el mapa de oclusión ambiental del modelo para crear máscaras basadas en las zonas donde la luz ambiental está más ocluida.</p>
+<p>El Ambient Occlusion es un generador procedural que utiliza el mapa de oclusión ambiental del modelo para crear máscaras basadas en las zonas donde la luz ambiental está más ocluida.</p>
 <video autoplay loop muted width="600">
   <source src="../../../../../images/layer_section/Tools/intelligent_mask/AO.webm" type="video/webm">
   Tu navegador no soporta videos en formato webm.
@@ -1854,6 +1854,7 @@
 
 <h2 id="dust">Dust</h2>
 <p>El Dust es un generador procedural que simula la acumulación de polvo en una superficie.</p>
+<p>Utiliza información del mapa de texturas world space normal.</p>
 <video autoplay loop muted width="600">
   <source src="../../../../../images/layer_section/Tools/intelligent_mask/dust.webm" type="video/webm">
   Tu navegador no soporta videos en formato webm.
@@ -1861,6 +1862,7 @@
 
 <h2 id="edge">Edge</h2>
 <p>El Edge es un generador procedural que detecta y resalta las aristas y bordes de la geometría, permitiendo crear máscaras que se aplican sobre las zonas más expuestas de un objeto. Su comportamiento se basa principalmente en el mapa de curvatura.</p>
+<p>Es posible activar la casilla que desenfoca la máscara para ganar más información a la hora de trabajar con máscaras.</p>
 <video autoplay loop muted width="600">
   <source src="../../../../../images/layer_section/Tools/intelligent_mask/edge.webm" type="video/webm">
   Tu navegador no soporta videos en formato webm.
@@ -1868,6 +1870,7 @@
 
 <h2 id="edge-wear">Edge Wear</h2>
 <p>El Edge Wear es un generador procedural que simula el desgaste en los bordes y aristas expuestas de un objeto.</p>
+<p>Utiliza la información del mapa de texturas curvature y también se pueden combinar con linkmask para detectar los bordes de la máscara.</p>
 <video autoplay loop muted width="600">
   <source src="../../../../../images/layer_section/Tools/intelligent_mask/edgewear.webm" type="video/webm">
   Tu navegador no soporta videos en formato webm.
